@@ -3,11 +3,13 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer'; 
 import Cart from './pages/Cart/Cart';
 import Shop from './pages/Shop/Shop';
+import ShopContextProvider from './context/shop-context';
 
 
 function App() {
   return (
     <div className='App'>
+      <ShopContextProvider>
     <Router>
       <Navbar />
         <Routes>
@@ -16,6 +18,7 @@ function App() {
         </Routes>
         <Footer />
         </Router>
+        </ShopContextProvider>
       </div>
     
   );
