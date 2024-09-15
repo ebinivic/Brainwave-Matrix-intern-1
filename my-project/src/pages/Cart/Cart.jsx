@@ -20,6 +20,12 @@ const{cartItems} = useContext(ShopContext);
      })}
     
     </div>
+    <div className='çheckout'>
+      <p> SubTotal:$</p>
+      <button>Continue Shopping</button>
+      <button> CheckOut</button>
+
+      </div>
     </div>
   )
 }
