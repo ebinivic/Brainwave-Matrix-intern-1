@@ -1,13 +1,14 @@
 import React from 'react'
 import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
+
 const Footer = () => {
   return (
-    <footer className='bg-gary-700 text-white py-8 px-4 md:px-16 lg:px-24'>
+    <div className='bg-gary-700 text-white py-8 px-4 md:px-16 lg:px-24'>
       <div className= 'container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8'>
         <div>
           <h3 className='text-xl font-semibold'>ShoppyRite</h3>
-          <p className='mt-4'> Your one-store for all your needs.</p>
+          <p className='mt-4'> Your Store for all your needs.</p>
         </div>
         <div>
           <h4 className='text-lg font semibold'>Follow us </h4>
@@ -18,7 +19,7 @@ const Footer = () => {
              </div>
         </div>
       </div>
-      </footer>
+      </div>
 
   )
 }

@@ -11,7 +11,7 @@ import {ShopContext} from "../../context/shop-context";
       <div className='justify-between border-b py-2'>
       </div>
       <div>
-        <p className="text-xl font-bold mt-2">
+        <p className="text-xl font-semibold mt-2">
       <b>{productName}</b>
       </p>
       <p>
@@ -19,7 +19,7 @@ import {ShopContext} from "../../context/shop-context";
       </p>
       </div>
       <div>
-      <button classNamee='mt-2 bg-blue-500 text-white p-2 rounded' onClick={()=> addToCart(id)}>
+      <button className='mt-2 bg-blue-500 text-white p-2 rounded' onClick={()=> addToCart(id)}>
         Add To Cart{cartItemAmount > 0 && <>({cartItemAmount})</>}
       </button>
       </div>
