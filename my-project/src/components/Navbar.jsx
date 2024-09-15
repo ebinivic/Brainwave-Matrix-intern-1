@@ -1,6 +1,5 @@
 import React from 'react'
 import {FiShoppingCart } from "react-icons/fi";
-import { FaSearch } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 

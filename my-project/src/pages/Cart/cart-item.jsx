@@ -5,12 +5,12 @@ export const CartItem = (props) => {
   return (
     <div className='container mx-auto p-4 flex items-center justify-between border-b py-2 '>
         <img src={productImage} />
-        <div className='container mx-auto p-4 flex items-center justify-between border-b py-2 w-16 h-16'>
+        <div className='container mx-auto p-4 flex items-bottom justify-between border-b py-2 w-16 h-16'>
             <p className='w-16 h-16 object-cover'>
                 {""}
-                <b className='w-17 h-16 object-cover'> {productName}</b>
+                <b className='flex flex-col md:items-center'> {productName}</b>
             </p>
-            <p className='w-16 h-16 object-cover'>${price}</p>
+            <p className='flex flex-col md:items-center'>${price}</p>
         </div>
     </div>
   )
