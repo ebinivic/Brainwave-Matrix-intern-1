@@ -18,7 +18,7 @@ export const CartItem = (props) => {
       </div>
       <div className="">
         <button
-          className="auto-cols-auto container mx-2 text-justify"
+          className="auto-cols-auto container mx-2 text-justify between items border-5"
           onClick={() => removeFromCart(id)}
         >
           -
@@ -28,7 +28,7 @@ export const CartItem = (props) => {
           onChange={(e) => updatecartItemCount(Number(e.target.value), id)}
         />
         <button
-          className="auto-cols-auto container mx-2 text-justify between items "
+          className="auto-cols-auto container mx-2 text-justify between items border-5"
           onClick={() => addToCart(id)}
         >
           +

@@ -23,7 +23,10 @@ export const Cart = () => {
       </div>
       {totalAmount > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          <p> SubTotal:${totalAmount}</p>
+          <p className="mt-2 text-3xl font-semibold">
+            {" "}
+            SubTotal:${totalAmount}
+          </p>
           <button
             className="mt-2 bg-blue-500 text-white p-2 rounded"
             onClick={() => navigate("/")}
